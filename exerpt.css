@@ -1,0 +1,9 @@
+.exerpt {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 3rem;
+}
+
+.exerpt > * {
+  margin: 0rem;
+}

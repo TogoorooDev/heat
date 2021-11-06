@@ -1,0 +1,31 @@
+.big-text {
+  font-style: italic;
+  text-decoration: underline overline;
+}
+
+@keyframes heat-anim {
+  from { color: rgb(255, 255, 255); }
+  to { color: rgb(255, 93, 23); }
+}
+
+.big-heat {
+  color: rgb(255, 255, 255);
+  animation-name: heat-anim;
+  animation-duration: 0.55s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes desert-anim {
+  from { color: rgb(255, 255, 255); }
+  to { color: rgb( 74, 74, 74 ); }
+}
+
+.big-desert {
+  color: rgb(255, 255, 255);
+  animation-name: desert-anim;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
